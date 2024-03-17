@@ -13,7 +13,7 @@
     "g-c-test": "cd ./android  && ./gradlew clean && cd .. && react-native run-android --variant=release",
     "g-c-build": "cd ./android  && ./gradlew clean && ./gradlew assembleRelease",
     "g-c-bundle": "cd android && ./gradlew clean && ./gradlew bundleRelease",
-    "push": "git status && git add . && git commit -m 'MESSAGE' && git push origin BRANCH_NAME",
+    "push": "git status && git add . && git commit -m 'adding font family' && git push origin main",
     "xcode": "xed -b ios",
     "start-port": "react-native start --port 8082",
     "android-port": "react-native run-android --port 8082",
