@@ -1,19 +1,52 @@
-import { SafeAreaView, StyleSheet, Text, View } from 'react-native'
-import React from 'react'
-import { Fonts } from './src/styles/fonts'
+import * as yup from 'yup';
+import {useForm} from 'react-hook-form';
+import {Alert, Button, StyleSheet, Text, View} from 'react-native';
+import {yupResolver} from '@hookform/resolvers/yup';
+import FormInput from './src/components/inputs/FormInput';
 
-const App = () => {
+const formSchema = yup.object({
+  email: yup
+    .string()
+    .email('Please enter a valid email')
+    .required('Email Is Required'),
+  full_name: yup.string().min(3, 'full name must be at least 3 characters'),
+  password: yup.string().min(8, 'Password must be at least 8 characters'),
+});
+
+export default function App() {
+  const {control, handleSubmit} = useForm({
+    defaultValues: {
+      email: '',
+      full_name: '',
+      password: '',
+    },
+    resolver: yupResolver(formSchema),
+  });
+
+  const onSubmit = data => {
+    console.log(data);
+    Alert.alert('Successful', JSON.stringify(data));
+  };
+
   return (
-    <SafeAreaView style={{justifyContent:"center", alignItems:"center", flex:1}}>
-      <Text style={{fontSize: 50, fontFamily: Fonts.hanumanBlack}}>App</Text>
-      <Text style={{fontSize: 50, fontFamily: Fonts.hanumanBold}}>App</Text>
-      <Text style={{fontSize: 50, fontFamily: Fonts.hanumanLight}}>App</Text>
-      <Text style={{fontSize: 50, fontFamily: "Hanuman-Regular"}}>App</Text>
-      <Text style={{fontSize: 50, fontFamily: "Hanuman-Thin"}}>App</Text>
-    </SafeAreaView>
-  )
+    <View style={styles.container}>
+      <Text style={styles.heading}>Simple Login Form</Text>
+      <FormInput control={control} name={'email'} placeholder="email" />
+      <FormInput control={control} name={'full_name'} placeholder="full name" />
+      <FormInput
+        control={control}
+        name={'password'}
+        placeholder="password"
+        secureTextEntry
+      />
+      <Button title="Submit" onPress={handleSubmit(onSubmit)} />
+    </View>
+  );
 }
 
-export default App
-
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({
+  container: {
+    flex: 2,
+    justifyContent: 'center',
+  },
+});

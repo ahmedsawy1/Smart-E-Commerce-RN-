@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* SmartECommerceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* SmartECommerceTests.m */; };
+		08C135B19E8D4AB7A9AD25D3 /* Hanuman-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC13C43D375A4A3BB2E982FB /* Hanuman-Light.ttf */; };
+		093F01BA089B43A4B6A0D945 /* Hanuman-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5881280C111E485B8D891BF8 /* Hanuman-Thin.ttf */; };
 		0C80B921A6F3F58F76C31292 /* libPods-SmartECommerce.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-SmartECommerce.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		24DF86E220314BEE97994769 /* Hanuman-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 877CEFD32FE343B9B262AF56 /* Hanuman-Bold.ttf */; };
+		467AF05B5A734D4D855F9C0C /* Hanuman-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F6E07AC44714C5E8306639A /* Hanuman-Black.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-SmartECommerce-SmartECommerceTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-SmartECommerce-SmartECommerceTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		467AF05B5A734D4D855F9C0C /* Hanuman-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F6E07AC44714C5E8306639A /* Hanuman-Black.ttf */; };
-		24DF86E220314BEE97994769 /* Hanuman-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 877CEFD32FE343B9B262AF56 /* Hanuman-Bold.ttf */; };
-		08C135B19E8D4AB7A9AD25D3 /* Hanuman-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC13C43D375A4A3BB2E982FB /* Hanuman-Light.ttf */; };
 		AC39ED53AB6142DCB973C08A /* Hanuman-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 632A9B6094414EE78C2BB480 /* Hanuman-Regular.ttf */; };
-		093F01BA089B43A4B6A0D945 /* Hanuman-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5881280C111E485B8D891BF8 /* Hanuman-Thin.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,18 +42,18 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = SmartECommerce/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SmartECommerce/main.m; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-SmartECommerce-SmartECommerceTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SmartECommerce-SmartECommerceTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F6E07AC44714C5E8306639A /* Hanuman-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Hanuman-Black.ttf"; path = "../src/assets/fonts/Hanuman-Black.ttf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-SmartECommerce.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartECommerce.debug.xcconfig"; path = "Target Support Files/Pods-SmartECommerce/Pods-SmartECommerce.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-SmartECommerce.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartECommerce.release.xcconfig"; path = "Target Support Files/Pods-SmartECommerce/Pods-SmartECommerce.release.xcconfig"; sourceTree = "<group>"; };
+		5881280C111E485B8D891BF8 /* Hanuman-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Hanuman-Thin.ttf"; path = "../src/assets/fonts/Hanuman-Thin.ttf"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-SmartECommerce-SmartECommerceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartECommerce-SmartECommerceTests.debug.xcconfig"; path = "Target Support Files/Pods-SmartECommerce-SmartECommerceTests/Pods-SmartECommerce-SmartECommerceTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-SmartECommerce.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SmartECommerce.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		632A9B6094414EE78C2BB480 /* Hanuman-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Hanuman-Regular.ttf"; path = "../src/assets/fonts/Hanuman-Regular.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = SmartECommerce/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		877CEFD32FE343B9B262AF56 /* Hanuman-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Hanuman-Bold.ttf"; path = "../src/assets/fonts/Hanuman-Bold.ttf"; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-SmartECommerce-SmartECommerceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartECommerce-SmartECommerceTests.release.xcconfig"; path = "Target Support Files/Pods-SmartECommerce-SmartECommerceTests/Pods-SmartECommerce-SmartECommerceTests.release.xcconfig"; sourceTree = "<group>"; };
+		CC13C43D375A4A3BB2E982FB /* Hanuman-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Hanuman-Light.ttf"; path = "../src/assets/fonts/Hanuman-Light.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		2F6E07AC44714C5E8306639A /* Hanuman-Black.ttf */ = {isa = PBXFileReference; name = "Hanuman-Black.ttf"; path = "../src/assets/fonts/Hanuman-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		877CEFD32FE343B9B262AF56 /* Hanuman-Bold.ttf */ = {isa = PBXFileReference; name = "Hanuman-Bold.ttf"; path = "../src/assets/fonts/Hanuman-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		CC13C43D375A4A3BB2E982FB /* Hanuman-Light.ttf */ = {isa = PBXFileReference; name = "Hanuman-Light.ttf"; path = "../src/assets/fonts/Hanuman-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		632A9B6094414EE78C2BB480 /* Hanuman-Regular.ttf */ = {isa = PBXFileReference; name = "Hanuman-Regular.ttf"; path = "../src/assets/fonts/Hanuman-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		5881280C111E485B8D891BF8 /* Hanuman-Thin.ttf */ = {isa = PBXFileReference; name = "Hanuman-Thin.ttf"; path = "../src/assets/fonts/Hanuman-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,7 +160,7 @@
 			sourceTree = "<group>";
 		};
 		CDBDD8CF47664271ACEC433A /* Resources */ = {
-			isa = "PBXGroup";
+			isa = PBXGroup;
 			children = (
 				2F6E07AC44714C5E8306639A /* Hanuman-Black.ttf */,
 				877CEFD32FE343B9B262AF56 /* Hanuman-Bold.ttf */,
@@ -169,8 +169,8 @@
 				5881280C111E485B8D891BF8 /* Hanuman-Thin.ttf */,
 			);
 			name = Resources;
-			sourceTree = "<group>";
 			path = "";
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
