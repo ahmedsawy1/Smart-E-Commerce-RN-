@@ -8,15 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* SmartECommerceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* SmartECommerceTests.m */; };
+		056373E9B82A40677DD01401 /* libPods-SmartECommerce-SmartECommerceTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42F6CB5C221D70E957053317 /* libPods-SmartECommerce-SmartECommerceTests.a */; };
 		08C135B19E8D4AB7A9AD25D3 /* Hanuman-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC13C43D375A4A3BB2E982FB /* Hanuman-Light.ttf */; };
 		093F01BA089B43A4B6A0D945 /* Hanuman-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5881280C111E485B8D891BF8 /* Hanuman-Thin.ttf */; };
-		0C80B921A6F3F58F76C31292 /* libPods-SmartECommerce.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-SmartECommerce.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		24DF86E220314BEE97994769 /* Hanuman-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 877CEFD32FE343B9B262AF56 /* Hanuman-Bold.ttf */; };
 		467AF05B5A734D4D855F9C0C /* Hanuman-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F6E07AC44714C5E8306639A /* Hanuman-Black.ttf */; };
-		7699B88040F8A987B510C191 /* libPods-SmartECommerce-SmartECommerceTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-SmartECommerce-SmartECommerceTests.a */; };
+		6413705A7C36E44F72599F70 /* libPods-SmartECommerce.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C0F7173C078B38E73D47D8 /* libPods-SmartECommerce.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		AC39ED53AB6142DCB973C08A /* Hanuman-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 632A9B6094414EE78C2BB480 /* Hanuman-Regular.ttf */; };
 /* End PBXBuildFile section */
@@ -35,23 +35,23 @@
 		00E356EE1AD99517003FC87E /* SmartECommerceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartECommerceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* SmartECommerceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartECommerceTests.m; sourceTree = "<group>"; };
+		00FF0B77E4DE96B9C02942C0 /* Pods-SmartECommerce.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartECommerce.release.xcconfig"; path = "Target Support Files/Pods-SmartECommerce/Pods-SmartECommerce.release.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* SmartECommerce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartECommerce.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = SmartECommerce/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = SmartECommerce/AppDelegate.mm; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = SmartECommerce/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = SmartECommerce/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SmartECommerce/main.m; sourceTree = "<group>"; };
-		19F6CBCC0A4E27FBF8BF4A61 /* libPods-SmartECommerce-SmartECommerceTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SmartECommerce-SmartECommerceTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16C0F7173C078B38E73D47D8 /* libPods-SmartECommerce.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SmartECommerce.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B40A75868523AD70D06AAB8 /* Pods-SmartECommerce-SmartECommerceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartECommerce-SmartECommerceTests.debug.xcconfig"; path = "Target Support Files/Pods-SmartECommerce-SmartECommerceTests/Pods-SmartECommerce-SmartECommerceTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2F6E07AC44714C5E8306639A /* Hanuman-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Hanuman-Black.ttf"; path = "../src/assets/fonts/Hanuman-Black.ttf"; sourceTree = "<group>"; };
-		3B4392A12AC88292D35C810B /* Pods-SmartECommerce.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartECommerce.debug.xcconfig"; path = "Target Support Files/Pods-SmartECommerce/Pods-SmartECommerce.debug.xcconfig"; sourceTree = "<group>"; };
-		5709B34CF0A7D63546082F79 /* Pods-SmartECommerce.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartECommerce.release.xcconfig"; path = "Target Support Files/Pods-SmartECommerce/Pods-SmartECommerce.release.xcconfig"; sourceTree = "<group>"; };
+		42F6CB5C221D70E957053317 /* libPods-SmartECommerce-SmartECommerceTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SmartECommerce-SmartECommerceTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5881280C111E485B8D891BF8 /* Hanuman-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Hanuman-Thin.ttf"; path = "../src/assets/fonts/Hanuman-Thin.ttf"; sourceTree = "<group>"; };
-		5B7EB9410499542E8C5724F5 /* Pods-SmartECommerce-SmartECommerceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartECommerce-SmartECommerceTests.debug.xcconfig"; path = "Target Support Files/Pods-SmartECommerce-SmartECommerceTests/Pods-SmartECommerce-SmartECommerceTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-SmartECommerce.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SmartECommerce.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		632A9B6094414EE78C2BB480 /* Hanuman-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Hanuman-Regular.ttf"; path = "../src/assets/fonts/Hanuman-Regular.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = SmartECommerce/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		877CEFD32FE343B9B262AF56 /* Hanuman-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Hanuman-Bold.ttf"; path = "../src/assets/fonts/Hanuman-Bold.ttf"; sourceTree = "<group>"; };
-		89C6BE57DB24E9ADA2F236DE /* Pods-SmartECommerce-SmartECommerceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartECommerce-SmartECommerceTests.release.xcconfig"; path = "Target Support Files/Pods-SmartECommerce-SmartECommerceTests/Pods-SmartECommerce-SmartECommerceTests.release.xcconfig"; sourceTree = "<group>"; };
+		BE69DA1C17E6AF6D6CF6129E /* Pods-SmartECommerce-SmartECommerceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartECommerce-SmartECommerceTests.release.xcconfig"; path = "Target Support Files/Pods-SmartECommerce-SmartECommerceTests/Pods-SmartECommerce-SmartECommerceTests.release.xcconfig"; sourceTree = "<group>"; };
+		BF425D80A48AE51838EDA1DD /* Pods-SmartECommerce.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartECommerce.debug.xcconfig"; path = "Target Support Files/Pods-SmartECommerce/Pods-SmartECommerce.debug.xcconfig"; sourceTree = "<group>"; };
 		CC13C43D375A4A3BB2E982FB /* Hanuman-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Hanuman-Light.ttf"; path = "../src/assets/fonts/Hanuman-Light.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -61,7 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7699B88040F8A987B510C191 /* libPods-SmartECommerce-SmartECommerceTests.a in Frameworks */,
+				056373E9B82A40677DD01401 /* libPods-SmartECommerce-SmartECommerceTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,7 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-SmartECommerce.a in Frameworks */,
+				6413705A7C36E44F72599F70 /* libPods-SmartECommerce.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,8 +110,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-SmartECommerce.a */,
-				19F6CBCC0A4E27FBF8BF4A61 /* libPods-SmartECommerce-SmartECommerceTests.a */,
+				16C0F7173C078B38E73D47D8 /* libPods-SmartECommerce.a */,
+				42F6CB5C221D70E957053317 /* libPods-SmartECommerce-SmartECommerceTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -151,10 +151,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3B4392A12AC88292D35C810B /* Pods-SmartECommerce.debug.xcconfig */,
-				5709B34CF0A7D63546082F79 /* Pods-SmartECommerce.release.xcconfig */,
-				5B7EB9410499542E8C5724F5 /* Pods-SmartECommerce-SmartECommerceTests.debug.xcconfig */,
-				89C6BE57DB24E9ADA2F236DE /* Pods-SmartECommerce-SmartECommerceTests.release.xcconfig */,
+				BF425D80A48AE51838EDA1DD /* Pods-SmartECommerce.debug.xcconfig */,
+				00FF0B77E4DE96B9C02942C0 /* Pods-SmartECommerce.release.xcconfig */,
+				2B40A75868523AD70D06AAB8 /* Pods-SmartECommerce-SmartECommerceTests.debug.xcconfig */,
+				BE69DA1C17E6AF6D6CF6129E /* Pods-SmartECommerce-SmartECommerceTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -179,12 +179,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "SmartECommerceTests" */;
 			buildPhases = (
-				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
+				DC7308213D6D381A45A48BE0 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
-				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
+				8DAD42B45B98810D7D275ACE /* [CP] Embed Pods Frameworks */,
+				ACAC0DCEA29AB7E70EAFB034 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -200,13 +200,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "SmartECommerce" */;
 			buildPhases = (
-				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				27151685B4C121D18E00E362 /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
-				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+				EE6B9DFE110FD3C0AE95950C /* [CP] Embed Pods Frameworks */,
+				6ACB1ADB039BDC6D8EC98487 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -294,46 +294,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SmartECommerce/Pods-SmartECommerce-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SmartECommerce/Pods-SmartECommerce-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SmartECommerce/Pods-SmartECommerce-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SmartECommerce-SmartECommerceTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+		27151685B4C121D18E00E362 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -355,24 +316,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SmartECommerce-SmartECommerceTests/Pods-SmartECommerce-SmartECommerceTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SmartECommerce-SmartECommerceTests/Pods-SmartECommerce-SmartECommerceTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SmartECommerce-SmartECommerceTests/Pods-SmartECommerce-SmartECommerceTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+		6ACB1ADB039BDC6D8EC98487 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -389,7 +333,24 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SmartECommerce/Pods-SmartECommerce-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
+		8DAD42B45B98810D7D275ACE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmartECommerce-SmartECommerceTests/Pods-SmartECommerce-SmartECommerceTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmartECommerce-SmartECommerceTests/Pods-SmartECommerce-SmartECommerceTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SmartECommerce-SmartECommerceTests/Pods-SmartECommerce-SmartECommerceTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACAC0DCEA29AB7E70EAFB034 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -404,6 +365,45 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SmartECommerce-SmartECommerceTests/Pods-SmartECommerce-SmartECommerceTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC7308213D6D381A45A48BE0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmartECommerce-SmartECommerceTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE6B9DFE110FD3C0AE95950C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmartECommerce/Pods-SmartECommerce-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmartECommerce/Pods-SmartECommerce-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SmartECommerce/Pods-SmartECommerce-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -439,7 +439,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-SmartECommerce-SmartECommerceTests.debug.xcconfig */;
+			baseConfigurationReference = 2B40A75868523AD70D06AAB8 /* Pods-SmartECommerce-SmartECommerceTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "i386 arm64";
@@ -467,7 +467,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-SmartECommerce-SmartECommerceTests.release.xcconfig */;
+			baseConfigurationReference = BE69DA1C17E6AF6D6CF6129E /* Pods-SmartECommerce-SmartECommerceTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -491,7 +491,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-SmartECommerce.debug.xcconfig */;
+			baseConfigurationReference = BF425D80A48AE51838EDA1DD /* Pods-SmartECommerce.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -519,7 +519,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-SmartECommerce.release.xcconfig */;
+			baseConfigurationReference = 00FF0B77E4DE96B9C02942C0 /* Pods-SmartECommerce.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
