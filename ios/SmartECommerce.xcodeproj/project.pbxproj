@@ -44,15 +44,15 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SmartECommerce/main.m; sourceTree = "<group>"; };
 		16C0F7173C078B38E73D47D8 /* libPods-SmartECommerce.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SmartECommerce.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B40A75868523AD70D06AAB8 /* Pods-SmartECommerce-SmartECommerceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartECommerce-SmartECommerceTests.debug.xcconfig"; path = "Target Support Files/Pods-SmartECommerce-SmartECommerceTests/Pods-SmartECommerce-SmartECommerceTests.debug.xcconfig"; sourceTree = "<group>"; };
-		2F6E07AC44714C5E8306639A /* Hanuman-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Hanuman-Black.ttf"; path = "../src/assets/fonts/Hanuman-Black.ttf"; sourceTree = "<group>"; };
+		2F6E07AC44714C5E8306639A /* Hanuman-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hanuman-Black.ttf"; path = "../src/assets/fonts/Hanuman-Black.ttf"; sourceTree = "<group>"; };
 		42F6CB5C221D70E957053317 /* libPods-SmartECommerce-SmartECommerceTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SmartECommerce-SmartECommerceTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5881280C111E485B8D891BF8 /* Hanuman-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Hanuman-Thin.ttf"; path = "../src/assets/fonts/Hanuman-Thin.ttf"; sourceTree = "<group>"; };
-		632A9B6094414EE78C2BB480 /* Hanuman-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Hanuman-Regular.ttf"; path = "../src/assets/fonts/Hanuman-Regular.ttf"; sourceTree = "<group>"; };
+		5881280C111E485B8D891BF8 /* Hanuman-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hanuman-Thin.ttf"; path = "../src/assets/fonts/Hanuman-Thin.ttf"; sourceTree = "<group>"; };
+		632A9B6094414EE78C2BB480 /* Hanuman-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hanuman-Regular.ttf"; path = "../src/assets/fonts/Hanuman-Regular.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = SmartECommerce/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		877CEFD32FE343B9B262AF56 /* Hanuman-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Hanuman-Bold.ttf"; path = "../src/assets/fonts/Hanuman-Bold.ttf"; sourceTree = "<group>"; };
+		877CEFD32FE343B9B262AF56 /* Hanuman-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hanuman-Bold.ttf"; path = "../src/assets/fonts/Hanuman-Bold.ttf"; sourceTree = "<group>"; };
 		BE69DA1C17E6AF6D6CF6129E /* Pods-SmartECommerce-SmartECommerceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartECommerce-SmartECommerceTests.release.xcconfig"; path = "Target Support Files/Pods-SmartECommerce-SmartECommerceTests/Pods-SmartECommerce-SmartECommerceTests.release.xcconfig"; sourceTree = "<group>"; };
 		BF425D80A48AE51838EDA1DD /* Pods-SmartECommerce.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartECommerce.debug.xcconfig"; path = "Target Support Files/Pods-SmartECommerce/Pods-SmartECommerce.debug.xcconfig"; sourceTree = "<group>"; };
-		CC13C43D375A4A3BB2E982FB /* Hanuman-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Hanuman-Light.ttf"; path = "../src/assets/fonts/Hanuman-Light.ttf"; sourceTree = "<group>"; };
+		CC13C43D375A4A3BB2E982FB /* Hanuman-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hanuman-Light.ttf"; path = "../src/assets/fonts/Hanuman-Light.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -169,7 +169,6 @@
 				5881280C111E485B8D891BF8 /* Hanuman-Thin.ttf */,
 			);
 			name = Resources;
-			path = "";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -509,7 +508,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smartecommerce;
 				PRODUCT_NAME = SmartECommerce;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -535,7 +534,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smartecommerce;
 				PRODUCT_NAME = SmartECommerce;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
