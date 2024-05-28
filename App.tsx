@@ -1,11 +1,18 @@
 import {StyleSheet, Text, View} from 'react-native';
-import React from 'react';
+import React, { useEffect } from 'react';
+import { backgroundMessageHandler, requestUserPermission } from './src/util/Notifications';
 
 const App = () => {
+
+  useEffect(() => {
+    requestUserPermission()
+    backgroundMessageHandler()
+  },[])
+
   return (
     <View style={styles.container}>
       <Text style={styles.title}>
-        How To Integrate Firebase To React Native
+        How To Push Notifications Using Firebase {'\n'} In React Native
       </Text>
     </View>
   );
@@ -22,5 +29,6 @@ const styles = StyleSheet.create({
   title: {
     color: 'black',
     fontSize: 17,
+    textAlign:"center"
   },
 });
